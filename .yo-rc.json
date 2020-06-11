@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.samweeklyprojects.honorsociety",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.9.1",
+    "applicationType": "monolith",
+    "baseName": "honorSociety",
+    "packageName": "com.samweeklyprojects.honorsociety",
+    "packageFolder": "com/samweeklyprojects/honorsociety",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "YzFmZjY2MGM0M2Y4ZjVkYzNkYmUwNDFkZjExNGMxYWU4ODk2ODY2NjQ5ZDQ2NWVjYzQxZDBlNmE5NGU0NDQxMmJlZWJjMWM1NWY3MjZhYmIxODFhZjcyMzYzZDZhY2FjNGYwYWFlMzQ0ODhhN2FkYzVmNTNkZGEwMzI4MDVlODc=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1591813687826,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "fr"],
+    "blueprints": []
+  }
+}
