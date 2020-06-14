@@ -5,11 +5,35 @@ info:
   title: 'honorSociety'
   version: 0.0.1
 servers:
-  - url: http://localhost:8080/api
+  - url: http://localhost:8080/
     description: Development server
-  - url: https://localhost:8080/api
+  - url: https://localhost:8080/
     description: Development server with TLS Profile
-paths: {}
+tags:
+  - name: bootstrap
+    description: Bootstrap endpoints
+paths:
+  /api/hello:
+    get:
+      operationId: hello
+      tags:
+        - bootstrap
+      summary: Sends geetings to the world
+      responses:
+        '200':
+          description: The greetings have been dispatched
+          content:
+            'text/plain':
+              schema:
+                type: string
+                example: 'Hello World!'
+        '500':
+          description: The greetings could not be dispatched
+          content:
+            'application/json':
+              schema:
+                $ref: '#/components/responses/Problem'
+
 components:
   responses:
     Problem:
